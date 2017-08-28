@@ -1,0 +1,134 @@
+body {
+    background-color: #000;
+}
+
+article {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 8px;
+}
+
+header {
+    background-color: #000;
+    color: red;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Comic Sans MS;
+}
+
+#x1 {
+    background-color: #42fc89;
+}
+
+#x2 {
+    background-color: #ec9b14;
+
+}
+
+#x3 {
+    background-color: #ff0369;
+
+}
+#x4 {
+    background-color: #cebf19;
+}
+
+#x5 {
+    background-color: #00f21d;
+
+}
+
+#x6 {
+    background-color: #94d6e2;
+
+}
+#x7 {
+    background-color: #d3be56;
+}
+
+#x8 {
+    background-color: #5b4fe7;
+
+}
+
+#x9 {
+    background-color: #e897ca;
+
+}
+#x10 {
+    background-color: #c7fe8d;
+}
+
+#x11 {
+    background-color: #a9d5cc;
+}
+
+#x12 {
+    background-color: #98f0d7;
+}
+
+#x13 {
+    background-color: #ffd2a7;
+}
+
+#x14 {
+    background-color: #ebb8fd;
+}
+
+#x15 {
+    background-color: #3cb8f8;
+}
+
+#x16 {
+    background-color: #c2fe08;
+}
+
+#x17 {
+    background-color: #11d8a7;
+}
+
+#x18 {
+    background-color: #d1919f;
+}
+
+#x19 {
+    background-color: #d8a63a;
+}
+
+#x20 {
+    background-color: #a9d0eb;
+}
+
+#x21 {
+    background-color: #9afeca;
+}
+
+#x22 {
+    background-color: #1ee2da;
+}
+
+#x23 {
+    background-color: #c1f4c0;
+}
+
+#x24 {
+    background-color: #ea6247;
+}
+
+#x25 {
+    background-color: #f1d430;
+}
+
+#x26 {
+    background-color: #f7b96c;
+}
+
+#x27 {
+    background-color: #9916ca;
+}
+
+#x28 {
+    background-color: #669828;
+}
