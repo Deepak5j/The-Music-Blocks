@@ -2,7 +2,7 @@ var context = new (window.AudioContext || window.webkitAudioContext)();
 function message() {
     alert("Touch colored blocks.\n\nUse ear phone for better experience.\n\nIncrease volume of your device.");
 } 
-function snd(freq,typ,i) { 
+window.onload = function snd(freq,typ,i) { 
    
     var op = getBgColor(i);
     
