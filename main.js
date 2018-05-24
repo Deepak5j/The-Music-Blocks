@@ -28,10 +28,10 @@ function createblocks() {
         //div.setAttribute("onmouseover", "snd("+value+",'square', 'x" +i +"')"); 
 
         var num = Math.floor((Math.random() * 4) + 1);
-        if(num == 1) div.setAttribute("onmouseover", "snd("+value+",'sine', 'x" +i +"')"); 
-        if(num == 2) div.setAttribute("onmouseover", "snd("+value+",'square', 'x" +i +"')"); 
-        if(num == 3) div.setAttribute("onmouseover", "snd("+value+",'sawtooth', 'x" +i +"')"); 
-        if(num == 4) div.setAttribute("onmouseover", "snd("+value+",'triangle', 'x" +i +"')"); 
+        if(num == 1) { div.setAttribute("onmouseover", "snd("+value+",'sine', 'x" +i +"')");  div.setAttribute("onclick", "snd("+value+",'sine', 'x" +i +"')"); } 
+        if(num == 2) { div.setAttribute("onmouseover", "snd("+value+",'square', 'x" +i +"')");  div.setAttribute("onclick", "snd("+value+",'square', 'x" +i +"')"); } 
+        if(num == 3) { div.setAttribute("onmouseover", "snd("+value+",'sawtooth', 'x" +i +"')");  div.setAttribute("onclick", "snd("+value+",'sawtooth', 'x" +i +"')"); } 
+        if(num == 4) { div.setAttribute("onmouseover", "snd("+value+",'triangle', 'x" +i +"')");   div.setAttribute("onclick", "snd("+value+",'triangle', 'x" +i +"')");  }
 
         id.appendChild(div);
 
